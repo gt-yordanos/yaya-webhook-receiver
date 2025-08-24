@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project Structure</title>
+
   <style>
     body {
       background-color: #0f172a;
@@ -57,7 +52,6 @@
       }
     }
   </style>
-</head>
 <body>
   <h1 align="center">
     <img src="https://play-lh.googleusercontent.com/Ui8o3sP8Ycapx6nnZE3NbVTsg-JkcCra98yDeI_wEzBCTaNSFWxnQrggCUelbagQ8g" alt="YaYa Wallet Logo" width="60" style="vertical-align: middle; margin-right: 10px;" />
