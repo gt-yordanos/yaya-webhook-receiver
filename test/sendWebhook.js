@@ -5,6 +5,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const secret = process.env.WEBHOOK_SECRET;
+const port = process.env.PORT;
 const payload = {
   id: "1dd2854e-3a79-4548-ae36-97e4a18ebf81",
   amount: 100,
@@ -26,7 +27,7 @@ const signature = crypto
 
 (async () => {
   try {
-    const res = await axios.post("http://localhost:5000/webhook", payload, {
+    const res = await axios.post(`http://localhost:${port}/webhook`, payload, {
       headers: { "yaya-signature": signature }
     });
     console.log(res.data);
