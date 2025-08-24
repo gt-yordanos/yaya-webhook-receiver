@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "sendwebhook": "node test/sendWebhook.js"
   },
   "dependencies": {
     "body-parser": "^2.2.0",
