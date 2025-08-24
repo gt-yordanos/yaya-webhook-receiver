@@ -1,57 +1,3 @@
-
-  <style>
-    body {
-      background-color: #0f172a;
-      color: #e2e8f0;
-      font-family: "Fira Code", monospace;
-      display: flex;
-      justify-content: center;
-      padding: 20px;
-    }
-
-    .container {
-      background-color: #1e293b;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-      width: 100%;
-      max-width: 600px;
-    }
-
-    h2 {
-      margin-top: 0;
-      color: #38bdf8;
-      font-size: 1.5rem;
-      text-align: center;
-    }
-
-    pre {
-      background-color: #0f172a;
-      padding: 15px;
-      border-radius: 10px;
-      overflow-x: auto;
-      white-space: pre-wrap;
-      word-break: break-word;
-      font-size: 14px;
-      margin: 0;
-    }
-
-    code {
-      color: #cbd5e1;
-      font-family: inherit;
-    }
-
-    /* Responsive */
-    @media (max-width: 600px) {
-      .container {
-        padding: 15px;
-      }
-      pre {
-        font-size: 13px;
-        padding: 10px;
-      }
-    }
-  </style>
 <body>
   <h1 align="center">
     <img src="https://play-lh.googleusercontent.com/Ui8o3sP8Ycapx6nnZE3NbVTsg-JkcCra98yDeI_wEzBCTaNSFWxnQrggCUelbagQ8g" alt="YaYa Wallet Logo" width="60" style="vertical-align: middle; margin-right: 10px;" />
@@ -154,12 +100,14 @@
   </div>
 
   <div>
-
+  <br/>
   <h2>⚙️ Setup Instructions</h2>
 
   <p><strong>Clone the repository:</strong></p>
-  <pre><code>git clone &lt;repo_url&gt;
-cd yaya-webhook-receiver
+  <pre><code>git clone https://github.com/gt-yordanos/yaya-webhook-receiver.git
+  </code></pre>
+
+  <pre><code>cd yaya-webhook-receiver
   </code></pre>
 
   <p><strong>Install dependencies:</strong></p>
