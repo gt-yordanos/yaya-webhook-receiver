@@ -6,7 +6,7 @@
 
   <p align="center">
     <img src="https://i0.wp.com/compositecode.blog/wp-content/uploads/2018/07/1200px-node-js_logo.png?fit=863%2C528&ssl=1" alt="Node.js Logo" width="200" style="margin-right: 15px;" />
-    <img src="https://www.softude.com/wp-content/uploads/36.webp" alt="Express Logo" width="200"/>
+    <img src="https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/2024_1_29_638421126126198259_expressjs-la-gi-1-1.jpg" alt="Express Logo" width="200"/>
   </p>
 
   
@@ -23,6 +23,7 @@
   <p>The task was to implement a webhook endpoint that:</p>
   <ul>
     <li>Receives <code>POST</code> requests with transaction data from YaYa Wallet.</li>
+     <li>Responds only to HTTPS request.</li>
     <li>Verifies the request is authentic using <strong>HMAC SHA-256 signature</strong>.</li>
     <li>Prevents <strong>replay attacks</strong> and <strong>duplicate event processing</strong>.</li>
     <li>Responds quickly to webhook events.</li>
